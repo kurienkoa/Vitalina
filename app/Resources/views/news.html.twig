@@ -1,0 +1,89 @@
+{% extends "/default/index.html.twig" %}
+    {% block header %}
+<header class="new-header">
+    <div class="center-block">
+        <a class="logo-link" href="/"></a>
+        <ul class="list-menu">
+            <li><a href="/about">- О нас -</a></li>
+            <li><a href="/news" class="active">- Новости -</a></li>
+            <li><a href="/collection">- Коллекции -</a></li>
+            <li><a href="/action">- Акции -</a></li>
+            <li><a href="/contacts">- Контакты -</a></li>
+        </ul>
+        <div class="lang">
+            <a href="#">RU</a>
+            /
+            <a href="#">EN</a>
+        </div>
+        <div class="top-line"></div>
+    </div>
+</header>
+    {% endblock %}
+{% block main %}
+<main class="news-page">
+    <div class="top-block">
+        <span>Новости</span>
+    </div>
+    <div class="item">
+        <div class="photo"></div>
+        <a href class="text-block">
+            <div class="title">NEWS 1</div>
+            <div class="text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал. Lorem Ipsum является стандартной
+                <br><span>Подробнее</span>
+            </div>
+        </a>
+    </div>
+    <div class="item">
+        <div class="photo"></div>
+        <a href class="text-block">
+            <div class="title">NEWS 2</div>
+            <div class="text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал. Lorem Ipsum является стандартной
+                <br><span>Подробнее</span>
+            </div>
+        </a>
+    </div>
+    <div class="video-block">
+        <div class="item">
+            <div class="title">за кулисами</div>
+            <video controls="controls">
+                <source src="video/backstage VitalinaFilipchuk 2015.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                Тег video не поддерживается вашим браузером.
+                <a href="video/backstage VitalinaFilipchuk 2015.mp4">Скачайте видео</a>.
+            </video>
+        </div>
+        <div class="item">
+            <div class="title">Летняя коллекция одежды 2014</div>
+            <video controls="controls">
+                <source src="video/summerClothesCollection2014.mp4" type='video/mp4;'>
+                Тег video не поддерживается вашим браузером.
+                <a href="video/summerClothesCollection2014.mp4">Скачайте видео</a>.
+            </video>
+        </div>
+        <div class="item">
+            <div class="title">Новая коллекция 2015</div>
+            <video controls="controls">
+                <source src="video/VitalinaFilipchuk new collection 2015.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                Тег video не поддерживается вашим браузером.
+                <a href="video/VitalinaFilipchuk new collection 2015.mp4">Скачайте видео</a>.
+            </video>
+        </div>
+        <div class="item">
+            <div class="title">Летняя коллекция одежды 2014 Fashion Designer</div>
+            <video controls="controls">
+                <source src="video/VitalinaFilipchuk Летняя коллекция одежды 2014_Fashion Designer.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                Тег video не поддерживается вашим браузером.
+                <a href="video/VitalinaFilipchuk Летняя коллекция одежды 2014_Fashion Designer.mp4">Скачайте видео</a>.
+            </video>
+        </div>
+    </div>
+</main>
+{% endblock %}
+{% block footer %}
+    <ul class="list-menu">
+        <li><a href="/about">О нас</a></li>
+        <li><a href="/news" class="active">Новости</a></li>
+        <li><a href="/collection">Коллекции</a></li>
+        <li><a href="/action">Акции</a></li>
+        <li class="last"><a href="/contacts">Контакты</a></li>
+    </ul>
+{% endblock %}

@@ -1,0 +1,55 @@
+{% extends "/default/index.html.twig" %}
+    {% block header %}
+        <header class="new-header">
+            <div class="center-block">
+                <a class="logo-link" href="/"></a>
+                <ul class="list-menu">
+                    <li><a href="/about">- О нас -</a></li>
+                    <li><a href="/news">- Новости -</a></li>
+                    <li><a href="/collection" class="active">- Коллекции -</a></li>
+                    <li><a href="/action">- Акции -</a></li>
+                    <li><a href="/contacts">- Контакты -</a></li>
+                </ul>
+                <div class="lang">
+                    <a href="#">RU</a>
+                    /
+                    <a href="#">EN</a>
+                </div>
+                <div class="top-line"></div>
+            </div>
+        </header>
+    {% endblock %}
+{% block main %}
+<main class="collection-page">
+    <div class="top-block">
+        <span>Коллекции</span>
+    </div>
+    <div class="item">
+        <div class="photo"><img src="/PNG/31.png" alt="collection 2014"/></div>
+        <a href="collection2014" class="text-block">
+            <div class="title">Коллекция 2014</div>
+            <div class="text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал. Lorem Ipsum является стандартной
+                <br><span>Подробнее</span>
+            </div>
+        </a>
+    </div>
+    <div class="item">
+        <div class="photo"><img src="/PNG/32.png" alt="collection 2015"/></div>
+        <a href class="text-block">
+            <div class="title">Коллекция 2015</div>
+            <div class="text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал. Lorem Ipsum является стандартной
+                <br><span>Подробнее</span>
+            </div>
+        </a>
+    </div>
+</main>
+{% endblock %}
+{% block footer %}
+    <ul class="list-menu">
+        <li><a href="/about">О нас</a></li>
+        <li><a href="/news">Новости</a></li>
+        <li><a href="/collection" class="active">Коллекции</a></li>
+        <li><a href="/action">Акции</a></li>
+        <li class="last"><a href="/contacts">Контакты</a></li>
+    </ul>
+{% endblock %}

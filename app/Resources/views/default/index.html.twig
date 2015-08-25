@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <title>Vitalina Filipchuk</title>
+    <link rel="shortcut icon" href="/web/favicon.png" type="image/x-icon">
+    <link href="http://allfont.ru/allfont.css?fonts=arial-narrow" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('css/media-style.css') }}" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    {% block header %}
+        <header class="start-header">
+                <div class="center-block">
+                    <a href="/about" class="about">О нас</a>
+                    <div class="lang">
+                        <a href="#">RU</a>
+                        /
+                        <a href="#">EN</a>
+                    </div>
+                    <div class="top-line"></div>
+                </div>
+        </header>
+    {% endblock %}
+    {% block main %}
+        <main class="start-page">
+            <div class="first-block">
+                <a href="/news" class="item news">
+                    <div class="block-item">Новости</div>
+                </a>
+                <a href="/action" class="item action">
+                    <div class="block-item">Акции</div>
+                </a>
+            </div>
+            <div class="dummy"></div>
+            <div class="second-block">
+                <a href="/collection" class="item collection">
+                    <div class="block-item">Коллекции</div>
+                </a>
+                <a href="/contacts" class="item contacts">
+                    <div class="block-item">Контакты</div>
+                </a>
+            </div>
+        </main>
+    {% endblock %}
+<footer>
+    <div class="center-block footer-block">
+        <div class="top-line"></div>
+        <div class="name"></div>
+        <div class="block-center">
+            <div class="social">
+                <a href="#" class="item vk"></a>
+                <a href="#" class="item facebook"></a>
+                <a href="#" class="item google"></a>
+                <a href="#" class="item twitter"></a>
+                <a href="#" class="item in"></a>
+                <a href="#" class="item instagram"></a>
+            </div>
+        {% block footer %}
+            <ul class="list-menu">
+                <li><a href="/about">О нас</a></li>
+                <li><a href="/news">Новости</a></li>
+                <li><a href="/collection">Коллекции</a></li>
+                <li><a href="/action">Акции</a></li>
+                <li class="last"><a href="/contacts">Контакты</a></li>
+            </ul>
+        {% endblock %}
+        </div>
+    </div>
+    <div class="bottom-line">
+        <div class="center-block">
+            <div class="inl-block pull-left">+38 (097) 889 69 06</div>
+            <div class="inl-block pull-left">+38 (063) 1321811</div>
+            <div class="inl-block pull-left">vitalinafashion@i.ua</div>
+            <div class="inl-block copyright">Vitalina Filipchuk 2015 ©</div>
+            <div class="inl-block pull-right">Киев, М.Голосеевская, ул.Васильковская 1, офис 305/1</div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

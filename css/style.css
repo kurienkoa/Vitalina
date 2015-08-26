@@ -17,6 +17,10 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+img {
+    width: 100%;
+    height: auto;
+}
 .center-block {
     width: 1024px;
     margin: 0 auto;
@@ -630,6 +634,10 @@ main.contacts-page {height: 100%;}
     margin-right: 33.5px;
 }
 .action-page .item .mini-photo:last-child {margin-right: 0;}
+.action-page .item .mini-photo img {
+    width: 100%;
+    height: auto;
+}
 /*----------------------------END------АКЦИЯ----------------------------------*/
 /*------------------------------------------О нас----------------------------------*/
 .about-page .top-block video {
@@ -767,10 +775,6 @@ main.contacts-page {height: 100%;}
 }
 .collection-page .item .collection-photo:nth-child(3) {
     margin-right: 0;
-}
-.collection-page .item .collection-photo img {
-    width: 100%;
-    height: auto;
 }
 /*-----------------------END-------Коллекция 2014----------------------------------*/
 /*------------------------------------галерейка-------------------------------------*/

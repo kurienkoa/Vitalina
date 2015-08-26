@@ -50,6 +50,14 @@ class DefaultController extends Controller
     }
 
     /**
+     * @Route("/collection2015", name="collection-2015")
+     */
+    public function collectionTwoAction()
+    {
+        return $this->render('collection2015.html.twig');
+    }
+
+    /**
      * @Route("/contacts", name="contacts")
      */
     public function contactsAction()

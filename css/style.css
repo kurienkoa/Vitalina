@@ -17,10 +17,11 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+/*
 img {
     width: 100%;
     height: auto;
-}
+}*/
 .center-block {
     width: 1024px;
     margin: 0 auto;
@@ -765,16 +766,26 @@ main.contacts-page {height: 100%;}
     width: 450px;
 }
 
+.collection-page .item.row {
+    flex-wrap: wrap;
+}
 .collection-page .item .collection-photo {
-    display: inline-block;
-    vertical-align: top;
+    display: inline-table;
     width: 285px;
     height: 211px;
     border: 4px solid #872a87;
     margin-right: 47px;
+    margin-bottom: 47px;
 }
-.collection-page .item .collection-photo:nth-child(3) {
+.collection-page .item .collection-photo:nth-child(3n+3) {
     margin-right: 0;
+}
+.collection-page .item .collection-photo img {
+    display: table-column;
+    align-items: center;
+    max-height: 211px;
+    margin: 0 auto;
+    max-width: 100%;
 }
 /*-----------------------END-------Коллекция 2014----------------------------------*/
 /*------------------------------------галерейка-------------------------------------*/

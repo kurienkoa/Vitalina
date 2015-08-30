@@ -544,6 +544,7 @@ header.new-header .list-menu li a.active {color: #ffffff;}
     text-transform: uppercase;
     color: #6f0c7a;
     margin-bottom: 20px;
+    height: 68px;
 }
 .news-page .video-block .item video {
     width : 400px;

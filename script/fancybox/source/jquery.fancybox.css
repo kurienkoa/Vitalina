@@ -120,11 +120,11 @@
 }
 
 .fancybox-prev {
-	left: 0;
+	left: -90px;
 }
 
 .fancybox-next {
-	right: 0;
+	right: -90px;
 }
 
 .fancybox-nav span {
@@ -227,9 +227,6 @@
 	padding: 2px 20px;
 	background: transparent; /* Fallback for web browsers that doesn't support RGBa */
 	background: rgba(0, 0, 0, 0.8);
-	-webkit-border-radius: 15px;
-	   -moz-border-radius: 15px;
-	        border-radius: 15px;
 	color: #FFF;
 	line-height: 24px;
 	white-space: nowrap;

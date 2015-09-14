@@ -33,6 +33,48 @@ class DefaultController extends Controller
         return $this->render('action.html.twig');
     }
 
+
+
+    /**
+     * @Route("/action-wedding-dress", name="action-wedding-dress")
+     */
+    public function actionWeddingDressAction()
+    {
+        return $this->render('action-wedding-dress.html.twig');
+    }
+
+    /**
+     * @Route("/action-evening-dresses", name="action-evening-dresses")
+     */
+    public function actionEveningDressesAction()
+    {
+        return $this->render('action-evening-dresses.html.twig');
+    }
+
+    /**
+     * @Route("/action-wedding-accessories", name="action-wedding-accessories")
+     */
+    public function actionWeddingAccessoriesAction()
+    {
+        return $this->render('action-wedding-accessories.html.twig');
+    }
+
+
+    /**
+     * @Route("/action-children-dresses", name="action-children-dresses")
+     */
+    public function actionChildrenDressesAction()
+    {
+        return $this->render('action-children-dresses.html.twig');
+    }
+
+
+
+
+
+
+
+
     /**
      * @Route("/collection", name="collection")
      */

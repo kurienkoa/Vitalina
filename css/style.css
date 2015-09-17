@@ -441,6 +441,7 @@ footer .bottom-line .center-block .inl-block {
     margin-bottom: 100px;
 }
 .collection-page .item .photo,
+.new-pages .item .photo,
 .news-page .item .photo {
     width: 213px;
     height: 299px;
@@ -449,10 +450,11 @@ footer .bottom-line .center-block .inl-block {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url("/PNG/33.png") center no-repeat;
+    /*background: url("/PNG/33.png") center no-repeat;*/
 }
 
 .collection-page .item .photo img,
+.new-pages .item .photo img,
 .news-page .item .photo img {
     width: 100%;
     height: auto;
@@ -471,6 +473,7 @@ footer .bottom-line .center-block .inl-block {
 }
 
 .collection-page .item .text-block .title,
+.new-pages .item .text-block .title,
 .news-page .item .text-block .title {
     font-size: 29px;
     text-transform: uppercase;
@@ -482,6 +485,7 @@ footer .bottom-line .center-block .inl-block {
     vertical-align: top;
 }
 
+.new-pages .item .text-block .text,
 .collection-page .item .text-block .text,
 .news-page .item .text-block .text {
     font-family: arial, sans-serif;
@@ -491,6 +495,7 @@ footer .bottom-line .center-block .inl-block {
     text-align: justify;
 }
 
+.new-pages .item .text-block .text span,
 .collection-page .item .text-block .text span,
 .news-page .item .text-block .text span {
     font-family: "Arial Narrow", Arial, sans-serif;
@@ -830,3 +835,13 @@ main.contacts-page {height: 100%;}
 }
 
 /*-----------------------END-------Коллекция 2014----------------------------------*/
+.new-pages .item {}
+.new-pages .item {margin-top: 150px;}
+.new-pages .item .photo {
+    width: 534px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+ul {padding-left: 18px;}

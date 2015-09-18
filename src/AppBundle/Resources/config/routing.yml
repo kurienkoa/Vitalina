@@ -1,0 +1,35 @@
+main:
+  path: /
+  defaults: { _controller: AppBundle:Default:index }
+
+about:
+  path: /about
+  defaults: { _controller: AppBundle:Default:about }
+
+contacts:
+  path: /contacts
+  defaults: { _controller: AppBundle:Default:contacts }
+
+news:
+  path: /news
+  defaults: { _controller: AppBundle:News:index }
+
+news_page:
+  path: /news/{page}
+  defaults: { _controller: AppBundle:News:page }
+
+collections:
+  path: /collections
+  defaults: { _controller: AppBundle:Collections:index }
+
+collections_page:
+  path: /collections/{page}
+  defaults: { _controller: AppBundle:Collections:page }
+
+actions:
+  path: /actions
+  defaults: { _controller: AppBundle:Actions:index }
+
+actions_page:
+  path: /actions/{page}
+  defaults: { _controller: AppBundle:Actions:page }

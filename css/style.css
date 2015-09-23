@@ -17,6 +17,9 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+.font-georgia1 {
+    font-family: Georgia1, Georgia, serif;
+}
 /*
 img {
     width: 100%;

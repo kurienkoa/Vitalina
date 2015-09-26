@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru" xml:lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="VITALINA FILIPCHUK">
+
+    <title>{% block title %}Admin{% endblock %}</title>
+
+    {% block stylesheets %}
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+        <!-- Custom styles for this template -->
+        <link type="text/css" href="{{ asset('bundles/admin/styles/dashboard.css')}}" rel="stylesheet">
+    {% endblock %}
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<body>
+
+{% block top_panel %}
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only" data-replace-tmp-key="6c7195551da0802a39b5e2bc7187df54"><os-p key="6c7195551da0802a39b5e2bc7187df54">Включить навигацию</os-p></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" data-replace-tmp-key="7adea0d9c77aabccd8bb67ae0a832d59"><os-p key="7adea0d9c77aabccd8bb67ae0a832d59">VITALINA FILIPCHUK</os-p></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><os-p key="2938c7f7e560ed972f8a4f68e80ff834">Панель управления</os-p></a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <input type="text" class="form-control" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </nav>
+{% endblock %}
+
+<div class="container-fluid">
+    <div class="row">
+        {% block menu_panel %}
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li><a href="#">Керування новинами <span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="#">Керування колекціями <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Керування акціями <span class="sr-only">(current)</span></a></li>
+                </ul>
+            </div>
+        {% endblock %}
+        {% block content %}{% endblock %}
+    </div>
+</div>
+</body>
+</html>

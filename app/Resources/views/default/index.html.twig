@@ -62,34 +62,34 @@
 <footer>
     <div class="center-block footer-block">
         <div class="top-line"></div>
-        <div class="name"></div>
         <div class="block-center">
+            <div class="name"></div>
+            {% block footer %}
+                <ul class="list-menu">
+                    <li><a href="/about">О нас</a></li>
+                    <li><a href="/news">Новости</a></li>
+                    <li><a href="/collections">Коллекции</a></li>
+                    <li><a href="/actions">Акции</a></li>
+                    <li class="last"><a href="/contacts">Контакты</a></li>
+                </ul>
+            {% endblock %}
             <div class="social">
-                <a href="https://vk.com/id139465299" class="item vk"></a>
-                <a href="https://www.facebook.com/vitalina.filipchuk" class="item facebook"></a>
-                <a href="https://plus.google.com/117922468905025741451/posts" class="item google"></a>
-                <a href="#" class="item twitter"></a>
-                <a href="#" class="item in"></a>
-                <a href="#" class="item instagram"></a>
+                <a target="_blank" href="https://vk.com/id139465299" class="item vk"></a>
+                <a target="_blank" href="https://www.facebook.com/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%8F-Vitalina-Filipchuk-995617403822456/timeline/" class="item facebook"></a>
+                <a target="_blank" href="https://plus.google.com/117922468905025741451/posts" class="item google"></a>
+                <a target="_blank" href="#" class="item twitter"></a>
+                <a target="_blank" href="#" class="item in"></a>
+                <a target="_blank" href="#" class="item instagram"></a>
             </div>
-        {% block footer %}
-            <ul class="list-menu">
-                <li><a href="/about">О нас</a></li>
-                <li><a href="/news">Новости</a></li>
-                <li><a href="/collections">Коллекции</a></li>
-                <li><a href="/actions">Акции</a></li>
-                <li class="last"><a href="/contacts">Контакты</a></li>
-            </ul>
-        {% endblock %}
         </div>
     </div>
     <div class="bottom-line">
         <div class="center-block">
-            <div class="inl-block pull-left">+38 (097) 889 69 06</div>
-            <div class="inl-block pull-left">+38 (063) 1321811</div>
-            <div class="inl-block pull-left">vitalinafashion@i.ua</div>
+            <div class="inl-block">+38 (097) 889 69 06</div>
+            <div class="inl-block">+38 (063) 1321811</div>
+            <div class="inl-block">vitalinafashion@i.ua</div>
             <div class="inl-block copyright">Vitalina Filipchuk 2015 ©</div>
-            <div class="inl-block pull-right">Киев, М.Голосеевская, ул.Васильковская 1, офис 305/1</div>
+            <div class="inl-block">Киев, М.Голосеевская, ул.Васильковская 1, офис 305/1</div>
         </div>
     </div>
 </footer>

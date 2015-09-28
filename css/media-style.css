@@ -1,3 +1,86 @@
+@media screen and (max-width: 768px) {
+    footer .social {
+        margin: -8px auto;
+        display: block;
+        text-align: right;
+    }
+    footer .list-menu {float: right;}
+    .footer-block {
+        background: url("/PNG/16.png") center 125px no-repeat;
+        min-height: 280px;
+        background-size: contain;
+    }
+    .page-action .item .collection-photo,
+    .collection-page .item .collection-photo {
+        width: 293px;
+        height: 219px;
+        margin: 0 25px 40px;
+        overflow: hidden;
+    }
+    .page-action .item .collection-photo:nth-child(3n+3),
+    .collection-page .item .collection-photo:nth-child(3n+3) {
+         margin-right: 25px;
+    }
+    header.new-header .logo-link {
+        background-position: center;
+        height: 0px;
+        padding-top: 36px;
+        margin-top: 17px;
+    }
+    header .lang {
+        height: 50px;
+    }
+    header.new-header .list-menu {
+        margin-left: 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: -15px;
+    }
+    .contacts-page .info-block {
+        top: 135px;
+    }
+    .about-page .top-block span,
+    .page-action .top-block span,
+    .action-page .top-block span,
+    .contacts-page .top-block span,
+    .collection-page .top-block span,
+    .news-page .top-block span {
+        top: 135px;
+    }
+    .about-page .item .photo-col {display: none;}
+
+    .about-page .item .price-block,
+    .about-page .item .info-block {
+         padding: 0 30px;
+         box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    .about-page .item .price-block .block .row .col:nth-child(odd) {
+        max-width: 375px;
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .about-page .item .price-block .block .row .col:nth-child(even) {
+        max-width: 170px;
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .about-page .item .price-block .block.text {
+        font-size: 22px;
+    }
+    .news-page .video-block .item {
+        display: block;
+        margin: 0 auto;
+    }
+    .action-page .item .photo img {
+        max-height: 300px;
+    }
+}
+
+/*-------------------------------height-----------------------------*/
 @media screen and (max-height: 616px) {
     .start-page .dummy {
         margin-top: -214px;
@@ -32,3 +115,5 @@
 @media screen and (max-height: 320px) {
     .start-page .dummy {display: none;}
 }
+
+

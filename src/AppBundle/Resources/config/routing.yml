@@ -33,3 +33,7 @@ actions:
 actions_page:
   path: /actions/{page}
   defaults: { _controller: AppBundle:Actions:page }
+
+english:
+  path: /english
+  defaults: { _controller: AppBundle:Default:english }

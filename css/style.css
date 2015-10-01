@@ -346,8 +346,10 @@ footer .copyright {
     margin-top: -234px;
     background-size: contain;
 }
+
 .about-page,
 .action-page,
+.english-page,
 .page-action,
 .contacts-page,
 .collection-page,
@@ -371,6 +373,7 @@ footer .copyright {
 
 .page-action .top-block,
 .about-page .top-block,
+.english-page .top-block,
 .action-page .top-block,
 .contacts-page .top-block,
 .collection-page .top-block,
@@ -413,6 +416,7 @@ footer .copyright {
 }
 
 .action-page .item,
+.english-page .item,
 .page-action .item,
 .collection-page .item,
 .new-pages .item,
@@ -818,6 +822,15 @@ main.contacts-page {height: 100%;}
 }
 
 /*-----------------------END-------Коллекция 2014----------------------------------*/
+/*------------------------------заглушка для анг версии сайта----------------------*/
+.english-page {height: 100%;}
+.english-page .item {
+    background: url("/PNG/52.png") center no-repeat;
+    background-size: contain;
+    max-width: 600px;
+    margin: 0 auto;
+}
+/*------------------------------заглушка для анг версии сайта----------------------*/
 .new-pages {height: 100%;}
 
 .new-pages .item {margin-top: 150px;}

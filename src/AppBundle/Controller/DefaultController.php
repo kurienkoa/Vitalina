@@ -30,4 +30,12 @@ class DefaultController extends Controller
     {
         return $this->render('about.html.twig');
     }
+
+    /**
+     * @return Response
+     */
+    public function englishAction()
+    {
+        return $this->render('english.html.twig');
+    }
 }

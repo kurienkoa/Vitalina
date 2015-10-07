@@ -56,6 +56,8 @@ header {
     top: 0;
     z-index: 3;
 }
+header .start-lang.lang,
+header .start-lang.lang a,
 header .lang,
 header .lang a,
 header .about {
@@ -69,6 +71,7 @@ header .about {
     height: 77px;
     line-height: 77px;
 }
+header .start-lang.lang,
 header .lang {
     float: right;
     height: 77px;
@@ -608,6 +611,7 @@ main.contacts-page {height: 100%;}
 }
 /*----------------------END------контакти-----------------------------------*/
 /*-------------------------------------АКЦИЯ----------------------------------*/
+.action-page {overflow: hidden;}
 .action-page .item {margin-bottom: 45px;}
 
 .action-page .item .photo {

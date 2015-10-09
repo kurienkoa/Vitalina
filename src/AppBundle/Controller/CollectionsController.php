@@ -25,8 +25,13 @@ class CollectionsController extends Controller
             return $this->render('AppBundle:Collections:collection2014.html.twig');
         }
 
+        if ((string)$page === (string)"2015-autumn") {
+            return $this->render('AppBundle:Collections:collection2015autumn.html.twig');
+        }
+
         if ($page == 2015) {
             return $this->render('AppBundle:Collections:collection2015.html.twig');
         }
+
     }
 }

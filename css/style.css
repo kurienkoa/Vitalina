@@ -208,7 +208,7 @@ footer .list-menu a.active { color: #ffffff;}
 footer .list-menu li {
     display: inline-block;
     vertical-align: top;
-    margin-left: 15px;
+    margin-left: 13px;
 }
 footer .list-menu li:before {
     content:  "-";
@@ -847,3 +847,17 @@ main.contacts-page {height: 100%;}
     overflow: hidden;
 }
 ul {padding-left: 18px;}
+
+.page-action .top-block.bg-small,
+.action-page .top-block.bg-small {
+    background-size: 70%;
+    background-position-y: 70px;
+}
+.collection-page .top-block.bg-small {
+    background-size: 80%;
+    background-position-y: 70px;
+}
+.collection-page .top-block.bg-clear {
+    background: none;
+    min-height: 100px;
+}

@@ -76,6 +76,11 @@
     footer .social .item {
         margin-right: 0;
     }
+    footer .design-link {
+        margin: 15px 0;
+        text-align: center;
+        position: inherit;
+    }
     .footer-block {
         min-height: 135px;
     }
@@ -224,6 +229,7 @@
         display: block;
         text-align: center;
     }
+    footer .design-link {bottom: 6px;}
     .footer-block {
         background: url("/PNG/16.png") center 100px no-repeat;
         min-height: 240px;
@@ -344,9 +350,10 @@
         text-align: right;
     }
     footer .list-menu {float: right;}
+    footer .design-link {bottom: -103px;}
     .footer-block {
         background: url("/PNG/16.png") center 125px no-repeat;
-        min-height: 280px;
+        min-height: 300px;
         background-size: contain;
     }
     header.new-header .logo-link {

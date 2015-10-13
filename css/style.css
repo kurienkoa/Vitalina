@@ -240,6 +240,17 @@ footer .bottom-line .center-block {
 footer .bottom-line .center-block .inl-block {
     margin: 0 10px;
 }
+footer .design-link {
+    text-align: right;
+    color: #fff;
+    position: relative;
+    bottom: -82px;
+    font-size: 14px;
+}
+footer .design-link a {
+    text-decoration: none;
+    color: #fff;
+}
 footer .copyright {
     font-size: 14px;
     color: #f2ded7;

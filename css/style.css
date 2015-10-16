@@ -502,6 +502,7 @@ footer .copyright {
     text-align: justify;
 }
 
+.action-page .item .text-block .text span,
 .new-pages .item .text-block .text span,
 .collection-page .item .text-block .text span,
 .news-page .item .text-block .text span {
@@ -512,6 +513,7 @@ footer .copyright {
     display: inline-block;
     margin-top: 10px;
 }
+.action-page .item .text-block .text span:after,
 .collection-page .item .text-block .text span:after,
 .news-page .item .text-block .text span:after {
     font-style: normal;

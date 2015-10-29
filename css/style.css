@@ -46,7 +46,7 @@ header .top-line {
     position: absolute;
     left: 0;
 }
-header.start-header {background: rgba(135, 42, 135, 0.9) url("/PNG/12.png") center no-repeat;}
+header.start-header {background: rgba(135, 42, 135, 0.9) url("/png/12.png") center no-repeat;}
 header {
     width: 100%;
     box-sizing: border-box;
@@ -99,7 +99,7 @@ footer .name {
     color: #f2ded7;
     font-size: 14px;
     text-transform: uppercase;
-    background: url("/PNG/15.png") center 33px no-repeat;
+    background: url("/png/15.png") center 33px no-repeat;
     background-size: contain;
     display: inline-block;
     vertical-align: top;
@@ -126,60 +126,60 @@ footer .social .item:last-child {margin-right: 0;}
 
 
 .contacts-page .info-block .social .facebook,
-                    footer .social .facebook  {background: url("/PNG/fb.png")      center no-repeat;}
+                    footer .social .facebook  {background: url("/png/fb.png")      center no-repeat;}
 
 .contacts-page .info-block .social .google,
-                    footer .social .google    {background: url("/PNG/g.png")       center no-repeat;}
+                    footer .social .google    {background: url("/png/g.png")       center no-repeat;}
 
 .contacts-page .info-block .social .instagram,
-                    footer .social .instagram {background: url("/PNG/insta.png")   center no-repeat;}
+                    footer .social .instagram {background: url("/png/insta.png")   center no-repeat;}
 
 .contacts-page .info-block .social .vk,
-                    footer .social .vk        {background: url("/PNG/vk.png")      center no-repeat;}
+                    footer .social .vk        {background: url("/png/vk.png")      center no-repeat;}
 
 .contacts-page .info-block .social .in,
-                    footer .social .in        {background: url("/PNG/in.png")      center no-repeat;}
+                    footer .social .in        {background: url("/png/in.png")      center no-repeat;}
 
 .contacts-page .info-block .social .twitter,
-                    footer .social .twitter   {background: url("/PNG/twitter.png") center no-repeat;}
+                    footer .social .twitter   {background: url("/png/twitter.png") center no-repeat;}
 
 
 .contacts-page .info-block .social .facebook:active,
-                    footer .social .facebook:active  {background: url("/PNG/fb_active.png")      center no-repeat;}
+                    footer .social .facebook:active  {background: url("/png/fb_active.png")      center no-repeat;}
 
 .contacts-page .info-block .social .google:active,
-                    footer .social .google:active    {background: url("/PNG/g_active.png")       center no-repeat;}
+                    footer .social .google:active    {background: url("/png/g_active.png")       center no-repeat;}
 
 .contacts-page .info-block .social .instagram:active,
-                    footer .social .instagram:active {background: url("/PNG/insta_active.png")   center no-repeat;}
+                    footer .social .instagram:active {background: url("/png/insta_active.png")   center no-repeat;}
 
 .contacts-page .info-block .social .vk:active,
-                    footer .social .vk:active        {background: url("/PNG/vk_active.png")      center no-repeat;}
+                    footer .social .vk:active        {background: url("/png/vk_active.png")      center no-repeat;}
 
 .contacts-page .info-block .social .in:active,
-                    footer .social .in:active        {background: url("/PNG/in_active.png")      center no-repeat;}
+                    footer .social .in:active        {background: url("/png/in_active.png")      center no-repeat;}
 
 .contacts-page .info-block .social .twitter:active,
-                    footer .social .twitter:active   {background: url("/PNG/twitter_active.png") center no-repeat;}
+                    footer .social .twitter:active   {background: url("/png/twitter_active.png") center no-repeat;}
 
 
 .contacts-page .info-block .social .facebook:hover,
-                    footer .social .facebook:hover  {background: url("/PNG/fb_hover.png")      center no-repeat;}
+                    footer .social .facebook:hover  {background: url("/png/fb_hover.png")      center no-repeat;}
 
 .contacts-page .info-block .social .google:hover,
-                    footer .social .google:hover    {background: url("/PNG/g_hover.png")       center no-repeat;}
+                    footer .social .google:hover    {background: url("/png/g_hover.png")       center no-repeat;}
 
 .contacts-page .info-block .social .instagram:hover,
-                    footer .social .instagram:hover {background: url("/PNG/insta_hover.png")   center no-repeat;}
+                    footer .social .instagram:hover {background: url("/png/insta_hover.png")   center no-repeat;}
 
 .contacts-page .info-block .social .vk:hover,
-                    footer .social .vk:hover        {background: url("/PNG/vk_hover.png")      center no-repeat;}
+                    footer .social .vk:hover        {background: url("/png/vk_hover.png")      center no-repeat;}
 
 .contacts-page .info-block .social .in:hover,
-                    footer .social .in:hover        {background: url("/PNG/in_hover.png")      center no-repeat;}
+                    footer .social .in:hover        {background: url("/png/in_hover.png")      center no-repeat;}
 
 .contacts-page .info-block .social .twitter:hover,
-                    footer .social .twitter:hover   {background: url("/PNG/twitter_hover.png") center no-repeat;}
+                    footer .social .twitter:hover   {background: url("/png/twitter_hover.png") center no-repeat;}
 
 footer ul {padding-left: 5px;}
 
@@ -257,7 +257,7 @@ footer .copyright {
     margin: 0 30px 14px;
 }
 .footer-block {
-    background: url("/PNG/16.png") center 75px no-repeat;
+    background: url("/png/16.png") center 75px no-repeat;
     min-height: 215px;
     background-size: contain;
 }
@@ -307,16 +307,16 @@ footer .copyright {
     height: 100%;
 }
 .start-page .item.news {
-    background: url("/PNG/10.png") center no-repeat;
+    background: url("/png/10.png") center no-repeat;
 }
 .start-page .item.collection {
-    background: url("/PNG/8.png") center no-repeat;
+    background: url("/png/8.png") center no-repeat;
 }
 .start-page .item.action {
-    background: url("/PNG/9.png") center no-repeat;
+    background: url("/png/9.png") center no-repeat;
 }
 .start-page .item.contacts {
-    background: url("/PNG/3.png") center no-repeat;
+    background: url("/png/3.png") center no-repeat;
 }
 .start-page .item:hover .block-item {
     background: rgba(255, 255, 255, 0.7);
@@ -346,7 +346,7 @@ footer .copyright {
 }
 
 .start-page .dummy {
-    background: url("/PNG/17.png") top center no-repeat;
+    background: url("/png/17.png") top center no-repeat;
     justify-content: center;
     align-items: center;
     width: 216px;
@@ -378,10 +378,10 @@ footer .copyright {
     background-color: #ffffff;
 }
 
-.action-page .top-block     {background: url("/PNG/50.png")  top center no-repeat;}
-.page-action .top-block     {background: url("/PNG/50.png")  top center no-repeat;}
-.news-page .top-block       {background: url("/PNG/27.png") top center no-repeat;}
-.collection-page .top-block {background: url("/PNG/30.png") top center no-repeat;}
+.action-page .top-block     {background: url("/png/50.png")  top center no-repeat;}
+.page-action .top-block     {background: url("/png/50.png")  top center no-repeat;}
+.news-page .top-block       {background: url("/png/27.png") top center no-repeat;}
+.collection-page .top-block {background: url("/png/30.png") top center no-repeat;}
 
 
 .page-action .top-block,
@@ -526,7 +526,7 @@ footer .copyright {
 
 /*--------------------------------НОВОСТИ---------------------------------*/
 header.new-header .logo-link {
-    background: url("/PNG/48.png") left center no-repeat;
+    background: url("/png/48.png") left center no-repeat;
     display: inline-block;
     width: 250px;
     height: 77px;
@@ -584,7 +584,7 @@ main.contacts-page {height: 100%;}
     right: 25px;
     height: 259px;
     width: 451px;
-    background: rgba(255, 255, 255, 0.8) url("/PNG/v-logo.png") 35px 27px no-repeat;
+    background: rgba(255, 255, 255, 0.8) url("/png/v-logo.png") 35px 27px no-repeat;
     color: #666666;
     font-family: Arial;
     font-weight: normal;
@@ -739,7 +739,7 @@ main.contacts-page {height: 100%;}
     font-size: 29px;
     text-transform: uppercase;
     color: #6f0c7a;
-    background: url("/PNG/25.png") 15px center no-repeat;
+    background: url("/png/25.png") 15px center no-repeat;
     padding: 80px 0px 62px 105px;
 }
 .about-page .item .price-block .block .name:first-of-type {
@@ -778,7 +778,7 @@ main.contacts-page {height: 100%;}
 }
 .about-page .item .price-block .block.text {
     border-top: 1px dashed #b3b3b3;
-    background: #ffebb4 url("/PNG/26.png") 22px 24px no-repeat;
+    background: #ffebb4 url("/png/26.png") 22px 24px no-repeat;
     font-size: 26px;
     line-height: 36px;
     text-transform: uppercase;
@@ -841,7 +841,7 @@ main.contacts-page {height: 100%;}
 /*------------------------------заглушка для анг версии сайта----------------------*/
 .english-page {min-height: 100%;}
 .english-page .item {
-    background: url("/PNG/52.png") center no-repeat;
+    background: url("/png/52.png") center no-repeat;
     background-size: contain;
     max-width: 600px;
     margin: 0 auto;

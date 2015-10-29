@@ -234,7 +234,7 @@
     }
     footer .design-link {bottom: 6px;}
     .footer-block {
-        background: url("/PNG/16.png") center 100px no-repeat;
+        background: url("/png/16.png") center 100px no-repeat;
         min-height: 240px;
         background-size: contain;
     }
@@ -355,7 +355,7 @@
     footer .list-menu {float: right;}
     footer .design-link {bottom: -103px;}
     .footer-block {
-        background: url("/PNG/16.png") center 125px no-repeat;
+        background: url("/png/16.png") center 125px no-repeat;
         min-height: 300px;
         background-size: contain;
     }
